@@ -1,0 +1,42 @@
+{
+  "name": "react-native-images-loaded",
+  "version": "1.0.0",
+  "description": "Check if all images under a context have been loaded",
+  "main": "index.js",
+  "repository": "https://github.com/mistenkt/react-native-images-loaded",
+  "author": "@mistenkt",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "pretty": "prettier --write \"src/**/*.js\" \"__tests__/**/*.js\"",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run pretty"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.62.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@testing-library/react-hooks": "^3.3.0",
+    "babel-jest": "^26.1.0",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "jest-serial-runner": "^1.1.0",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.62.2"
+  }
+}
