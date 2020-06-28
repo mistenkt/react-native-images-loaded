@@ -1,6 +1,6 @@
 {
   "name": "react-native-images-loaded",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if all images under a context have been loaded",
   "main": "index.js",
   "repository": "https://github.com/mistenkt/react-native-images-loaded",
