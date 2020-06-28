@@ -19,7 +19,7 @@ import {
 } from 'react-native-images-loaded';
 
 const styles = StyleSheet.create({
-    fadeIn: {
+    hidden: {
         opacity: 0,
         overflow: 'hidden'
     },
