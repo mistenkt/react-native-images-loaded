@@ -5,7 +5,7 @@ import { isObject } from './utils';
 
 const Image = ({ source, uri, ...rest }) => {
     const imageUri =
-        uri || (source && isObject(source) && source.uri) ? source.uri : null;
+        uri || (source && isObject(source) && source.uri ? source.uri : null);
     const wait = useImagesLoaded(imageUri);
 
     if (wait) return null;
